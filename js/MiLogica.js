@@ -131,6 +131,7 @@ $(document).ready(function () {
                         '  <th scope="col">NOmbre</th>' +
                         '  <th scope="col">Apellido</th>' +
                         '  <th scope="col">Correo</th>' +
+                        '  <th scope="col">foto</th>' +
                         '  <th scope="col">Eliminar</th>' +
                         '  <th scope="col">Modificar</th>' +
                         ' </tr>' +
@@ -142,6 +143,7 @@ $(document).ready(function () {
                             '  <td scope="col">' + persona.nombre + '</td>' +
                             '  <td scope="col">' + persona.apellido + '</td>' +
                             '  <td scope="col">' + persona.email + '</td>' +
+                            '  <td scope="col"><img src="http://192.168.0.102/webflas09/img/' + persona.foto + '" style="width:30px;"/></td>' +
                             '  <td scope="col"><button type="none" class="btn btn-danger elimaPer" idPer ="' + persona.id + '">Eliminar</button></td>' +
                             '  <td scope="col"><button type="none" class="btn btn-info EditarPer" idPer ="' + persona.id + '">Editar</button></td>' +
                             ' </tr>';

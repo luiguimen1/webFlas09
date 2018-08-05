@@ -2,8 +2,8 @@
 
 class Datos {
     private $hostname = 'localhost';
-    private $usuario = 'flaso9';
-    private $clave = '123456';
+    private $usuario = 'root';
+    private $clave = '';
     private $db = 'flas09';
 
     function getPre() {

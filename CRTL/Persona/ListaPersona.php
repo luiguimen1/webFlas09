@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 require '../../Class/Mysql/Datos.php';
 require '../../Class/Mysql/ConectarBD.php';
 
